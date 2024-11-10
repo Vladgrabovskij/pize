@@ -1,0 +1,95 @@
+/* Загальний стиль сторінки */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fae5c2; /* Світло-кремовий фон */
+    color: #333333; /* Темно-сірий текст */
+}
+
+a {
+    color: #fcfcfc; /* Бордове посилання */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Стиль для хедера та футера */
+header, footer {
+    background-color: #7b2b2b  ; /* Темно-коричневий */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header nav a {
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+/* Основний контент */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Cтилізація блоку з піцою */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.left, .right {
+    flex: 1;
+    padding: 1rem;
+}
+
+.left img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.right h2 {
+    color: #d35400; /* Червонувато-оранжевий акцент */
+}
+
+/* Стиль для списку інгредієнтів */
+#ingredients ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+#ingredients ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Вибір розміру піци */
+#order label {
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+#order button {
+    background-color: #f39c12; /* Яскравий помаранчевий */
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#order button:hover {
+    background-color: #e67e22; /* Трохи темніший помаранчевий */
+}
